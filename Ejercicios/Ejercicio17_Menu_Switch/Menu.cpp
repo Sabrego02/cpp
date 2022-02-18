@@ -4,7 +4,10 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int opcion = 0;    {
+    int opcion = 0;    
+
+    while (true) {
+        system ("cls");
 
         cout << "****" << endl;
         cout << " MENU" << endl;
@@ -35,7 +38,7 @@ int main(int argc, char const *argv[])
             case 2: 
             {
                 system ("cls");
-                cout << "Estas en el menu de cafe y granita" << endl;
+                cout << "Estas en el menu de Reposteria " << endl;
                 system("pause");
                 break;
             }
