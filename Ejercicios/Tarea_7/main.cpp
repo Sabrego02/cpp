@@ -1,12 +1,12 @@
-#include  <iostream>
+#include <iostream>
 #include "menu.h"
+
 using namespace std;
 
- void menu ();
+int main(int argc, char** argv) 
 
-int main(int argc, char const *argv[])
-{   
-    menu();
+{
+	menu();
 
-    return 0;
+	return 0;
 }
